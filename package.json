@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/napi-argv-dataview",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Convert a Node-API value corresponding to a DataView to an array of bytes (i.e., an unsigned 8-bit integer array).",
   "license": "Apache-2.0",
   "author": {
@@ -39,14 +39,14 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-napi-is-dataview": "github:stdlib-js/assert-napi-is-dataview#main",
+    "@stdlib/assert-napi-is-dataview": "^0.1.0",
     "@stdlib/assert-napi-status-ok": "^0.2.2",
     "@stdlib/napi-argv": "^0.2.2",
     "@stdlib/utils-library-manifest": "^0.2.3"
   },
   "devDependencies": {
     "@stdlib/array-dataview": "^0.2.2",
-    "@stdlib/array-typed": "^0.3.0",
+    "@stdlib/array-typed": "^0.3.1",
     "@stdlib/array-uint8": "^0.2.2",
     "@stdlib/assert-is-browser": "^0.2.2",
     "@stdlib/utils-try-require": "^0.2.2",
